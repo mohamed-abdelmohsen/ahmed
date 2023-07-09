@@ -1,0 +1,55 @@
+/* Set background color */
+body {
+    background-color: #f8f8f8;
+  }
+  
+  /* Set form styles */
+  form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="password"]:focus {
+    border-bottom: 2px solid #000;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ffd700;
+    color: #000;
+  }

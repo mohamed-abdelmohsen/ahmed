@@ -1,0 +1,125 @@
+/* Set background color */
+body {
+    background-color: #f8f8f8;
+  }
+  
+  /* Set header styles */
+  .header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header li {
+    margin-left: 20px;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .header a:hover {
+    color: #ffd700;
+  }
+  
+  /* Set form styles */
+  form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form .AA {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="text"],
+  form input[type="number"],
+  form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+  }
+  
+  form input[type="text"]:focus,
+  form input[type="number"]:focus,
+  form select:focus {
+    border-bottom: 2px solid #000;
+  }
+  
+  form .AA span {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #999;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  form .AA input:focus ~ span,
+  form .AA input:valid ~ span {
+    top: -15px;
+    left: 5px;
+    font-size: 12px;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  form .EE {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  form select {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    background: transparent;
+    color: #999;
+  }
+  
+  form button[type="submit"] {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ffd700;
+    color: #000;
+  }
